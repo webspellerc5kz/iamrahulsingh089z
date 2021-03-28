@@ -29,3 +29,29 @@ Sample Output
 2 x 8 = 16
 2 x 9 = 18
 2 x 10 = 20  */
+
+/* =================================================================================================================
+                                                  SOLUTION
+   ================================================================================================================= */
+
+import java.util.Scanner;
+
+public class solLoop1 {
+    
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int N = sc.nextInt();
+        
+                
+        int result;
+        for(int i=1; i<=10; i++){
+            
+            result = N * i;
+            System.out.println(N + " x "+i+" = "+result);   
+        
+        }
+        sc.close();
+    }
+}
